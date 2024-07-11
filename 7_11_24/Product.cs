@@ -5,7 +5,7 @@ public abstract class Product
     private static int id;
     public int Id { get; private set; }
     public string Name { get; set; }
-    public double Price { get; set; }
+    public double Price { get; set; } 
     public int Count { get; set; }
     public double TotalIncome { get; protected set; }
     public abstract void Sell();
